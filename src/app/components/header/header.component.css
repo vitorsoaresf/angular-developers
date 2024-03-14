@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1239px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: black;
+}
+
+button {
+  width: 139px;
+  height: 46px;
+  border-radius: 255px;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s;
+}
