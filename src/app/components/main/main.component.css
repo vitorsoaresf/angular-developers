@@ -27,3 +27,7 @@
   font-weight: 700;
   font-size: 18px;
 }
+
+.section_images_developers {
+  display: flex;
+}
