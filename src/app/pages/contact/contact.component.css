@@ -9,8 +9,11 @@ section {
 
 .banner-title {
   background-color: black;
-  padding: 34px 100px;
   justify-content: start;
+}
+
+.banner-title > h1 {
+  margin-left: 40px;
 }
 
 .banner-contact {
