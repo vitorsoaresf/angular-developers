@@ -18,10 +18,26 @@ button {
   color: black;
   background-color: transparent;
   cursor: pointer;
+  font-size: 16px;
 }
 
 button:hover {
   background-color: black;
   color: white;
   transition: background-color 0.5s;
+}
+
+button:hover a {
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  align-items: center;
 }
