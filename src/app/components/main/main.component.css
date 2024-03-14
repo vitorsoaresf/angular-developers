@@ -1,0 +1,29 @@
+#app-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1px;
+}
+
+.title_h1 {
+  font-weight: 700;
+  text-align: center;
+  line-height: 70px;
+  font-size: 55px;
+}
+
+.paragraph {
+  width: 519px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 32px;
+  font-size: 19px;
+}
+
+#app-main_website {
+  color: #7e9bff;
+  font-weight: 700;
+  font-size: 18px;
+}
