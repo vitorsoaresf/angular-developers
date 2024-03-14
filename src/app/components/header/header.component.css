@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   max-width: 1239px;
-  margin: 0 auto;
+  margin: 11px auto;
 }
 
 h3 {

@@ -1,18 +1,35 @@
 <main id="app-main">
-  <p class="paragraph" id="app-main_website">Website</p>
-  <h1 id="app-main_title">The Developers</h1>
-  <p class="paragraph" id="app-main_description">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero massa,
-    placerat in tempor non, tempor in quam. Sed suscipit laoreet lorem tincidunt
-    lobortis
-  </p>
+  <section>
+    <p class="paragraph" id="app-main_website">Website</p>
+    <h1 class="title_h1" id="app-main_title">The Developers</h1>
+    <p class="paragraph" id="app-main_description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero massa,
+      placerat in tempor non, tempor in quam. Sed suscipit laoreet lorem
+      tincidunt lobortis
+    </p>
+  </section>
 
-  <section class="section_images_developers">
+  <section class="section-images-developers">
     <app-user-card
       *ngFor="let developer of userList"
       [name]="developer.name"
       [description]="developer.description"
       [image]="developer.image"
     ></app-user-card>
+  </section>
+
+  <section class="section-find-developers">
+    <div class="container-info">
+      <h1 class="title_h1" id="app-main_title">
+        Find the<br />
+        best developers
+      </h1>
+      <p class="paragraph" id="app-main_description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero
+        massa, placerat in tempor non, tempor in quam. Sed suscipit laoreet
+        lorem tincidunt lobortis
+      </p>
+      <button>Learn more</button>
+    </div>
   </section>
 </main>
